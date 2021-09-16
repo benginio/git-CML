@@ -2,26 +2,13 @@
 <html>
 <head>
 	<title>project final CML tgl</title>
+	<link rel="stylesheet"  href="style.css">
+
 </head>
 <body>
 <canvas id="mon_canvas" width="850px" height="850px"></canvas>
 
-	<script type="text/javascript">
-		var c=document.getElementById("mon_canvas");
-		var ctx=c.getContext("2d");
 
-		ctx.beginPath();
-		ctx.moveTo(292,375);
-		ctx.lineTo(340,320);
-		ctx.lineTo(395,375);
-		ctx.lineTo(292,375);
-		ctx.lineWidth=2;//epaisseur ligne
-		ctx.strokeStyle='#000';//couleur ligne
-		ctx.fillStyle='#beeffe';//couleur fond
-		ctx.fill();//fermeture couleur fond
-		ctx.closePath();
-		ctx.stroke();
-		
-	</script>
+<script src="canva.js"></script>
 </body>
 </html>
