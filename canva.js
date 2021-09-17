@@ -30,5 +30,17 @@
 		ctx.fill();//fermeture couleur fond
 		ctx.closePath();
 		ctx.stroke();
-
+  // Suite premiere fenetre(haut)
+		ctx.beginPath();
+		ctx.moveTo(340,320);
+		ctx.lineTo(365,345);
+		ctx.lineTo(318,345);
+		ctx.lineTo(340,320);
+		ctx.lineTo(340,375);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#beeffe';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
 	

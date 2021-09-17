@@ -1,7 +1,7 @@
 TGL PROJET CML
 =========================
 
-TGL PROJET CML
+##TGL PROJET CML
 
 	**NOM DES MEMBRES DU GROUPE
 	JEAN BAPTISTE Benginio
@@ -9,4 +9,4 @@ TGL PROJET CML
 	NELSON Lomil
 	
 **PRESENTE A:
-				Rony BIEN AIME
+				Ing.Rony BIEN AIME
