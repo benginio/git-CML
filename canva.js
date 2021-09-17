@@ -18,4 +18,17 @@
 		ctx.closePath();
 		ctx.stroke();
 
+//premier fenetre haut 
+		ctx.beginPath();
+		ctx.moveTo(292,375);
+		ctx.lineTo(340,320);
+		ctx.lineTo(395,375);
+		ctx.lineTo(292,375);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#beeffe';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
+
 	
