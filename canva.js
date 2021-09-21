@@ -53,8 +53,37 @@
 		ctx.lineTo(303,404);
 		ctx.lineWidth=2;//epaisseur ligne
 		ctx.strokeStyle='#000';//couleur ligne
-		ctx.fillStyle='white';//couleur fond
+		ctx.fillStyle='#beeffe';//couleur fond
 		ctx.fill();//fermeture couleur fond
 		ctx.closePath();
 		ctx.stroke();
 	
+	//fenetre(milieu)
+
+		ctx.beginPath();
+		ctx.moveTo(312,404);
+		ctx.lineTo(312,464);
+		ctx.lineTo(375,464);
+		ctx.lineTo(375,404);
+		ctx.lineTo(345,404);
+		ctx.lineTo(345,464);
+		ctx.lineTo(345,404);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#beeffe';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
+
+		//bottom fenetre (milieu)
+		ctx.beginPath();
+		ctx.moveTo(312,464);
+		ctx.lineTo(312,475);
+		ctx.lineTo(375,475);
+		ctx.lineTo(375,464);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#f4c96b';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
