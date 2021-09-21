@@ -4,6 +4,60 @@
 		var ctx=c.getContext("2d");
 	
 
+
+		ctx.beginPath();
+		ctx.moveTo(368,278);
+		ctx.lineTo(410,278);
+		ctx.lineTo(410,265);
+		ctx.lineTo(368,265);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#7841c9';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(374,300);
+		ctx.lineTo(374,278);
+		ctx.lineTo(403,278);
+		ctx.lineTo(403,385);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#f4c96b';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.moveTo(466,407);
+		ctx.lineTo(340,277);
+		ctx.lineTo(224,407);
+		ctx.lineTo(216,400);
+		ctx.lineTo(340,260);
+		ctx.lineTo(474,398);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#7841c9';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();	
+
+		ctx.beginPath();
+		ctx.moveTo(235,417);
+		ctx.lineTo(340,300);
+		ctx.lineTo(457,417);
+		ctx.lineTo(466,407);
+		ctx.lineTo(340,277);
+		ctx.lineTo(224,407);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#1e3ab5';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();	
+
+
 		//base de la maison
 		ctx.beginPath();
 		ctx.moveTo(250,400);
