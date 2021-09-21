@@ -141,3 +141,17 @@
 		ctx.fill();//fermeture couleur fond
 		ctx.closePath();
 		ctx.stroke();
+
+		//fenetre(droite)
+
+		ctx.beginPath();
+		ctx.moveTo(385,404);
+		ctx.lineTo(385,475);
+		ctx.lineTo(420,475);
+		ctx.lineTo(420,404);
+		ctx.lineWidth=2;//epaisseur ligne
+		ctx.strokeStyle='#000';//couleur ligne
+		ctx.fillStyle='#beeffe';//couleur fond
+		ctx.fill();//fermeture couleur fond
+		ctx.closePath();
+		ctx.stroke();
