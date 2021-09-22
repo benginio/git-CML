@@ -67,7 +67,7 @@
 		ctx.lineTo(250,510);
 		ctx.lineWidth=2;//epaisseur ligne
 		ctx.strokeStyle='#000';//couleur ligne
-		ctx.fillStyle='#f8e162';//couleur fond
+		ctx.fillStyle='yellow';//couleur fond
 		ctx.fill();//fermeture couleur fond
 		ctx.closePath();
 		ctx.stroke();
